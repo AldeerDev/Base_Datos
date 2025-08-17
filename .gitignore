@@ -1,0 +1,8 @@
+# Archivos sqlite3
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivo de base de datos temporales
+*.db-journal
+*.db-wal

@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS usuarios;
+
+CREATE TABLE usuarios (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nombre TEXT NOT NULL,
+    edad INTEGER CHECK(edad >= 0)
+);
