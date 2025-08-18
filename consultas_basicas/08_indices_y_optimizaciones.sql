@@ -1,0 +1,1 @@
+CREATE INDEX idx_nombre ON usuarios(nombre);
